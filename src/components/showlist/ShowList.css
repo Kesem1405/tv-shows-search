@@ -1,0 +1,47 @@
+.show-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.show-card {
+    width: 220px;
+}
+
+.results-header {
+  text-align: center;
+  margin: 10px 0 16px 0;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.empty-text {
+  text-align: center;
+  margin-top: 40px;
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+.genre-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.genre-list li {
+    background: #427b91;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+.empty-text .results-header{
+    color:black;
+}
+
