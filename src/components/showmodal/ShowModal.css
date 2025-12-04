@@ -23,6 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  animation: scale-in-hor-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 
@@ -151,4 +152,29 @@
 
 .header span {
   color: #60a5fa;
+}
+
+@-webkit-keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
 }
