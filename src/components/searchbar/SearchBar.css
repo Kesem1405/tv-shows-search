@@ -1,14 +1,14 @@
 
 .searchBar {
   flex: 1;
-  padding: 0.65rem 0.9rem;
+  padding: 0.65rem 0.8rem;
   font-size: 1rem;
   border: 1px solid #4b5563;
   border-radius: 10px;
   background: #020617;
   color: #f9fafb;
   min-width: 230px;
-  margin: 3%;
+
 }
 
 .searchButton {
