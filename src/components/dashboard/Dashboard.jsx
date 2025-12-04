@@ -31,7 +31,6 @@ function Dashboard() {
 
 
   const handleHeaderClick = () => {
-    navigate("/");
     setResults([]);
     setSelectedShow(null);
     setLoading(false);
