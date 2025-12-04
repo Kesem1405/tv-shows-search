@@ -8,7 +8,6 @@
   background: #020617;
   color: #f9fafb;
   min-width: 230px;
-  margin-left: -3%;
 }
 
 .searchButton {
@@ -20,7 +19,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: background 0.15s ease-out, transform 0.1s ease-out;
-  margin-left: 1%;
+  
 }
 
 .searchBar:focus {
